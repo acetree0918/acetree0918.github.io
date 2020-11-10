@@ -1,1 +1,80 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DownWare.ID</title>
+    <style>
+        body {
+            margin: 0 300px;
+        }
+        menu {
+            display: inline-block;
+            border: 5px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 100px;
+            height: 100%;
+        }
+        .sidebar a{
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+        }
+        .content {
+            margin-left: 150px;
+            margin-right: 150px;
+            height: auto;
+            position: relative;
+        }
+        .sidebar a {
+            float: left;
+        }
+        div .content {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .bar {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+        }
+        .bar a {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>DownWare.id</h1>
+        <menu type="toolbar"><a href="">Home</a></menu>
+        <menu type="toolbar"><a href="">About</a></menu>
+        <menu type="toolbar"><a href="">Contact</a></menu>
+        <menu type="toolbar"><a href="">Donate</a></menu> 
+        <menu type="toolbar"><a href="">Request</a></menu> <hr>
+    </nav>
+    <main>
+        <div class="bar">
+            <a href="https://t.me/download_id">Telegram Channel</a>
+            <a href="">Youtube</a>
+        </div>
+        <div class="sidebar">
+            <a href="">Games</a>
+            <a href="">Software</a>
+            <a href="">Film</a>
+            <a href="">Music</a>
+            <a href="">E-Book</a>
+            <a href="">Others</a>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque sapiente, natus corporis provident ipsa tenetur obcaecati esse debitis exercitationem voluptas labore voluptatibus. Aut veritatis dolore numquam omnis repellendus molestias sunt.</p>
+        </div>
+    </main>
+</body>
+</html>
